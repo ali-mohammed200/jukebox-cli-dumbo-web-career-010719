@@ -47,5 +47,10 @@ def run(songArr)
   case userInp
   when "list"
     list(songArr)
-    when 
+  when "help"
+    help
+  when "play"
+    play(songArr)
+  when "exit"
+    exit_jukebox
 end
