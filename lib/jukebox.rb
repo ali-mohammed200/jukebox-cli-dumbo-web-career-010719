@@ -45,5 +45,7 @@ def run(songArr)
   userInp = gets.chomp
   
   case userInp
-  
+  when "list"
+    list(songArr)
+    when 
 end
