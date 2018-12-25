@@ -53,4 +53,5 @@ def run(songArr)
     play(songArr)
   when "exit"
     exit_jukebox
+  end
 end
