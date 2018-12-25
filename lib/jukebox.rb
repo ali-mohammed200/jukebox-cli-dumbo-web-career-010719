@@ -38,4 +38,8 @@ end
 def exit_jukebox
   puts "Goodbye"
 end
-def play
+
+def run(songArr)
+  help
+  
+end
