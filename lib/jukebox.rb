@@ -56,4 +56,5 @@ def run(songArr)
       exit_jukebox
     end
   end
+  return
 end
