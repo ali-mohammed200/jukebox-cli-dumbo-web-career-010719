@@ -19,7 +19,11 @@ def help
   puts "exit"
 end
 
-
+# def list(songArr)
+#   songArr.each.with_index { |elem, i|
+#     puts "#{i+1}. #{elem}"
+#   }
+# end
 
 def list(my_songs)
   #this method is different! Collect the keys of the my_songs hash and 
