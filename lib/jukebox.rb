@@ -41,17 +41,16 @@ end
 
 def run(songArr)
   help
-  puts "Please enter a command:"
-  userInp = gets.chomp
-  
-  case userInp
-  when "list"
-    list(songArr)
-  when "help"
-    help
-  when "play"
-    play(songArr)
-  when "exit"
-    exit_jukebox
-  end
+    puts "Please enter a command:"
+    userInp = gets.chomp
+    case userInp
+    when "list"
+      list(songArr)
+    when "help"
+      help
+    when "play"
+      play(songArr)
+    when "exit"
+      exit_jukebox
+    end
 end
