@@ -41,6 +41,8 @@ end
 
 def run(songArr)
   help
+  userInp = ""
+  while userInp != "exit"
     puts "Please enter a command:"
     userInp = gets.chomp
     case userInp
