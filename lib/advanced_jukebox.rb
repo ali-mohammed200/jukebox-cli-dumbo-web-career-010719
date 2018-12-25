@@ -13,8 +13,10 @@
 # }
 
 def help
-  #this method should be the same as in jukebox.rb
-
+  puts "help"
+  puts "list"
+  puts "play"
+  puts "exit"
 end
 
 
